@@ -1,6 +1,4 @@
-﻿using ValidadorSenha.Api.Application.Domain.Interfaces;
-
-namespace ValidadorSenha.Api.Application.Services
+﻿namespace ValidadorSenha.Api.Application.Services.Impl
 {
     public class ValidadorSenhaService : IValidadorSenhaService
     {

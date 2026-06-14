@@ -2,6 +2,6 @@
 {
     public class ValidadorSenhaResponse
     {
-        public bool IsValid { get; set; }
+        public bool SenhaValida { get; set; }
     }
 }

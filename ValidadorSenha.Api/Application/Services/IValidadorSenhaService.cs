@@ -1,4 +1,4 @@
-﻿namespace ValidadorSenha.Api.Application.Domain.Interfaces
+﻿namespace ValidadorSenha.Api.Application.Services
 {
     public interface IValidadorSenhaService
     {

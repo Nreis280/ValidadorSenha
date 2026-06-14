@@ -1,5 +1,5 @@
-using ValidadorSenha.Api.Application.Domain.Interfaces;
 using ValidadorSenha.Api.Application.Services;
+using ValidadorSenha.Api.Application.Services.Impl;
 
 var builder = WebApplication.CreateBuilder(args);
 
