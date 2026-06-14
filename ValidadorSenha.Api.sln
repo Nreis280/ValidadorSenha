@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidadorSenha.Api", "Valid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidadorSenha.UnitTests", "ValidadorSenha.UnitTests\ValidadorSenha.UnitTests.csproj", "{735B91EA-C9BB-4148-8C81-46E457672BBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidadorSenha.IntegrationTests", "ValidadorSenha.IntegrationTests\ValidadorSenha.IntegrationTests.csproj", "{BBB011DD-5D26-4881-91C2-E2983518B0DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{735B91EA-C9BB-4148-8C81-46E457672BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735B91EA-C9BB-4148-8C81-46E457672BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735B91EA-C9BB-4148-8C81-46E457672BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB011DD-5D26-4881-91C2-E2983518B0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB011DD-5D26-4881-91C2-E2983518B0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB011DD-5D26-4881-91C2-E2983518B0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB011DD-5D26-4881-91C2-E2983518B0DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
