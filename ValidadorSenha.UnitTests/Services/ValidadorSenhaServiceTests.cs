@@ -25,6 +25,11 @@ namespace ValidadorSenha.UnitTests.Services
         [InlineData("AbTp9!foo", false)]
         [InlineData("AbTp9!foA", false)]
         [InlineData("AbTp9 fok", false)]
+        [InlineData("AbTp9!fo_", false)]
+        [InlineData("abtp9!fok", false)]
+        [InlineData("ABTP9!FOK", false)]
+        [InlineData("AbTp!fokA", false)]
+        [InlineData("AbTp9fokA", false)]
         [InlineData("AbTp9!fok", true)]
         public void SenhaEhValida_DeveRetornarResultadoConformeRegrasDeValidacao(
             string senha,

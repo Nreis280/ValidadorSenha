@@ -27,6 +27,11 @@ namespace ValidadorSenha.IntegrationTests.Controller
         [InlineData("AbTp9!foo", false)]
         [InlineData("AbTp9!foA", false)]
         [InlineData("AbTp9 fok", false)]
+        [InlineData("AbTp9!fo_", false)]
+        [InlineData("abtp9!fok", false)]
+        [InlineData("ABTP9!FOK", false)]
+        [InlineData("AbTp!fokA", false)]
+        [InlineData("AbTp9fokA", false)]
         public async Task ValidarSenha_DeveRetornarResultadoEsperado(
             string senha,
             bool resultadoEsperado)

@@ -15,7 +15,8 @@
                 && PossuiLetraMinuscula(senha)
                 && PossuiLetraMaiuscula(senha)
                 && PossuiCaractereEspecial(senha)
-                && NaoPossuiCaracteresRepetidos(senha);
+                && NaoPossuiCaracteresRepetidos(senha)
+                && NaoPossuiCaracteresInvalidos(senha);
         }
 
         private static bool PossuiValor(string senha)
@@ -56,6 +57,13 @@
         private static bool NaoPossuiCaracteresRepetidos(string senha)
         {
             return senha.Distinct().Count() == senha.Length;
+        }
+
+        private static bool NaoPossuiCaracteresInvalidos(string senha)
+        {
+            return !senha.Any(c =>
+                !char.IsLetterOrDigit(c)
+                && !CaracteresEspeciais.Contains(c));
         }
     }
 }
