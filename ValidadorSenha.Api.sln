@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37027.9 d17.14
+VisualStudioVersion = 17.14.37027.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidadorSenha.Api", "ValidadorSenha.Api\ValidadorSenha.Api.csproj", "{DE4BB418-6C86-4648-AF3A-014253C2FA33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidadorSenha.UnitTests", "ValidadorSenha.UnitTests\ValidadorSenha.UnitTests.csproj", "{735B91EA-C9BB-4148-8C81-46E457672BBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DE4BB418-6C86-4648-AF3A-014253C2FA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE4BB418-6C86-4648-AF3A-014253C2FA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE4BB418-6C86-4648-AF3A-014253C2FA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735B91EA-C9BB-4148-8C81-46E457672BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735B91EA-C9BB-4148-8C81-46E457672BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735B91EA-C9BB-4148-8C81-46E457672BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735B91EA-C9BB-4148-8C81-46E457672BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
