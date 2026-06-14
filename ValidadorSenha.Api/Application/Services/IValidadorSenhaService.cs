@@ -2,6 +2,6 @@
 {
     public interface IValidadorSenhaService
     {
-        bool SenhaEhValida(string password);
+        bool SenhaEhValida(string senha);
     }
 }
